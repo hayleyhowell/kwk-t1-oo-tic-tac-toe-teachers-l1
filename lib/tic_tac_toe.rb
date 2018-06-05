@@ -103,6 +103,13 @@ class TicTacToe
     end
   end
   
+  def over?
+    if won? || draw? || full?
+      return true 
+    else 
+      return false
+    end
+  end
   
   
 end
